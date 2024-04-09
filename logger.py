@@ -175,7 +175,7 @@ def scrape(spotify_client, user_id):
 
 def main():
     spotify_client = get_spotify_client()
-    user_ids = ['va2q7gdf2g9q73ncsvr1m3snz','imdzcwxqs1zwms4tq1fvwg0rl']
+    user_ids = ['user_id goes here']
     for user_id in user_ids:
         user = spotify_client.user(user_id)
         print("User: ",user['display_name'])
